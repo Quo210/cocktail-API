@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+html{
+    background-color: rgb(41, 56, 38);
+    color: whitesmoke;
+    transition: 0.5s;
+}
+
+a{
+    color: white
+}
+
+/* Phones first */
+
+main{
+    max-width: 360px;
+    margin: auto;
+}
+
+header{
+    background-color: hsl(0, 100%, 50%);
+    padding: 0.1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.search{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search label{
+    padding: 5px;
+    font-size: 18px;
+}
+
+img{
+    display: block;
+    margin: auto;
+    border: 3px black solid;
+}
+
+.name{
+    text-align: center;
+}
+
+article{
+    text-align: center;
+}
+
+@media screen and (min-width: 900px){
+    main{
+        border:rgb(24, 32, 23) 2px solid;
+        padding: 1rem;
+    }
+}
